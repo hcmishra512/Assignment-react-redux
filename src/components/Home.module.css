@@ -1,0 +1,70 @@
+.top_container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+}
+
+.top_container button {
+  font-size: 22px;
+  width: 215px;
+  padding: 10px 30px;
+  border: 1px solid rgb(28, 192, 192);
+  color: rgb(28, 192, 192);
+  border-radius: 25px;
+}
+
+.top_container input {
+  width: 350px;
+  font-size: 18px;
+  border-radius: 25px;
+  padding-left: 10px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 12px;
+  font-size: 18px;
+}
+
+th {
+  font-size: 22px;
+  font-weight: 400px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.edit_icon {
+  color: rgb(8, 122, 137);
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.delete_icon {
+  color: rgb(184, 76, 76);
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.btn button {
+  margin: 2rem;
+  font-size: 22px;
+  padding: 10px 30px;
+  border: 1px solid rgb(28, 192, 192);
+  color: rgb(28, 192, 192);
+  border-radius: 25px;
+}

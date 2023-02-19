@@ -1,0 +1,23 @@
+.appbar {
+  height: 80px;
+  background: rgb(34, 118, 171);
+  text-align: center;
+}
+
+.toolbar {
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toolbar p {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.arrow_icon {
+  font-size: 42px;
+  color: white;
+}
